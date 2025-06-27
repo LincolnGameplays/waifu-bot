@@ -1,0 +1,9 @@
+python-telegram-bot==20.3
+google-cloud-dialogflow==2.24.0
+google-cloud-translate==2.0.1
+gTTS==2.3.2
+pydub==0.25.1
+requests==2.31.0
+python-dotenv==1.0.0
+sqlalchemy==2.0.20
+pykakasi==2.3.1
