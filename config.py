@@ -1,9 +1,15 @@
-# ~/waifu-bot/config.py
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # Carrega variáveis do arquivo .env
+load_dotenv()
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")  # Token seguro
-WAIFU_NAME = "Kaoruko-chan"
+# Configurações do Telegram
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+
+# Configurações do Google Cloud
+DIALOGFLOW_PROJECT_ID = os.getenv("DIALOGFLOW_PROJECT_ID")
+GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+
+# Configurações da Kaoruko
+KAORUKO_NAME = "Kaoruko-chan"
 DEFAULT_LANGUAGE = "pt"
